@@ -41,7 +41,7 @@ namespace Methods
                 //urunler -> dizinin adı 
             }
 
-            //instance //method - reusability
+            //instance  //method - reusability
             SepetManager sepetManager = new SepetManager();        
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
