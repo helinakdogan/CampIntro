@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "CampIntro": {
+      "commandName": "Project"
+    },
+    "WSL 2": {
+      "commandName": "Project",
+      "distributionName": ""
+    },
+    "WSL 2_1": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
