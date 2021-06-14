@@ -11,5 +11,6 @@ namespace Odev1
         public int Id { get; set; }
         public string Adi { get; set; }
         public string Soyadi { get; set; }
+        public int OdemeMiktari { get; set; }
     }
 }

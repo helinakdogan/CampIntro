@@ -11,6 +11,7 @@ namespace Methods
         //method -> ()
         //naming convention
         //parametre 
+        //void -> bir işlem yap
         public void Ekle(Urun urun)
         {
             Console.WriteLine("Sepete eklendi : " + urun.Adi );

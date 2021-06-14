@@ -10,12 +10,12 @@ namespace Odev1
     {
         public void Ekle(Musteri musteri) 
         {
-            Console.WriteLine("Müşteri eklendi : " + musteri.Adi + " " + musteri.Soyadi);      
+            Console.WriteLine("Sisteme giriş yaptı : " + musteri.Adi + " " + musteri.Soyadi);      
         }
 
         public void Silme(Musteri musteri) 
         {
-            Console.WriteLine("Müşteri silindi : " + musteri.Adi + " " + musteri.Soyadi);              
+            Console.WriteLine("Sistemden çıkış yaptı : " + musteri.Adi + " " + musteri.Soyadi);              
         }
 
         public void Listele(params Musteri[] musteriler)
@@ -28,8 +28,9 @@ namespace Odev1
             }       
         }
 
-
-
-
     }
+
+
+
+    
 }
